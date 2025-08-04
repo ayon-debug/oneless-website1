@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Oneless</title>
+    <meta name="description" content="Oneless Terms of Service - User agreement, subscription terms, and acceptable use policy for our quit smoking app.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9ff;
+        }
+        
+        /* Navigation */
+        .nav {
+            background: white;
+            padding: 15px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .nav-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        
+        .logo {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            color: #667eea;
+        }
+        
+        /* Main Content */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-radius: 20px;
+            overflow: hidden;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .section h3 {
+            color: #555;
+            font-size: 1.2em;
+            margin: 20px 0 10px 0;
+        }
+        
+        .section h4 {
+            color: #666;
+            font-size: 1.1em;
+            margin: 15px 0 8px 0;
+        }
+        
+        .section p, .section li {
+            margin-bottom: 10px;
+            color: #666;
+        }
+        
+        .section ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .highlight-box {
+            background: #f8f9ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .warning-box {
+            background: #fff8f0;
+            border-left: 4px solid #ff6b35;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .contact-info {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        .contact-info a {
+            color: white;
+            text-decoration: underline;
+        }
+        
+        .last-updated {
+            text-align: center;
+            color: #888;
+            font-style: italic;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            padding: 15px 20px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            opacity: 0;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+        
+        .back-to-top.visible {
+            opacity: 1;
+        }
+        
+        .back-to-top:hover {
+            background: #5a6fd8;
+            transform: translateY(-3px);
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                margin: 20px 10px;
+                border-radius: 15px;
+            }
+            
+            .header, .content {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="index.html" class="logo">Oneless</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="mailto:xodaxoda@gmail.com">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="header">
+            <h1>Terms of Service</h1>
+            <p>User agreement and app usage terms</p>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <div class="highlight-box">
+                    <strong>Last Updated:</strong> August 4, 2025<br>
+                    <strong>Effective Date:</strong> August 4, 2025
+                </div>
+                
+                <h3>1. Medical Disclaimer</h3>
+                <div class="warning-box">
+                    <strong>IMPORTANT MEDICAL DISCLAIMER:</strong> Oneless is a motivational tracking tool designed to help you monitor and gradually reduce your smoking habits. This app is NOT a medical device, medical treatment, cessation therapy, or substitute for professional medical advice, diagnosis, or treatment. Oneless does not guarantee smoking cessation success or health outcomes. Always consult with qualified healthcare professionals regarding your health, smoking cessation plans, and any medical concerns. Do not disregard professional medical advice or delay seeking it because of information provided by this app. If you experience any health issues related to smoking or cessation attempts, seek immediate medical attention.
+                </div>
+                
+                <h3>2. Subscription Terms and Device Policy</h3>
+                
+                <h4>Subscription Plans:</h4>
+                <ul>
+                    <li><strong>Free Trial:</strong> 5-day completely free trial (no payment required)</li>
+                    <li><strong>Paid Trial:</strong> 7-day paid trial period following free trial</li>
+                    <li><strong>Monthly Subscription:</strong> $2.50/month recurring subscription</li>
+                    <li><strong>Payment Processing:</strong> All billing handled through Google Play Store</li>
+                </ul>
+                
+                <h4>Device and Account Limitations:</h4>
+                <ul>
+                    <li><strong>One Account Per Device:</strong> Each subscription is tied to a specific device ID</li>
+                    <li><strong>Device Switching Policy:</strong> First device change is unrestricted; subsequent changes require 1-month waiting period</li>
+                    <li><strong>Emergency Device Changes:</strong> Contact xodaxoda@gmail.com for assistance with urgent device switches</li>
+                    <li><strong>Policy Violations:</strong> Unauthorized device switching results in premium feature suspension</li>
+                </ul>
+                
+                <h4>Connectivity and Security Requirements:</h4>
+                <ul>
+                    <li><strong>Online Verification:</strong> Must connect online every 3 days for subscription validation</li>
+                    <li><strong>Account Freezing:</strong> Accounts automatically freeze after 11 days offline</li>
+                    <li><strong>Time Tampering:</strong> Device time manipulation triggers security measures and potential account suspension</li>
+                    <li><strong>Version Requirements:</strong> Must maintain current app version as required by security updates</li>
+                </ul>
+                
+                <h4>Cancellation and Refunds:</h4>
+                <ul>
+                    <li><strong>Cancellation:</strong> Cancel anytime through Google Play Store account settings</li>
+                    <li><strong>Access Period:</strong> Continue accessing premium features until current billing period ends</li>
+                    <li><strong>Refund Policy:</strong> Refund requests handled according to Google Play Store refund policies</li>
+                    <li><strong>Account Deletion:</strong> Deleting account does not automatically cancel subscription</li>
+                </ul>
+                
+                <h3>3. Acceptable Use Policy</h3>
+                
+                <p>You agree to use Oneless responsibly and in accordance with these terms:</p>
+                
+                <h4>Prohibited Activities:</h4>
+                <ul>
+                    <li>Sharing account credentials with other users</li>
+                    <li>Attempting to circumvent device limitations or subscription policies</li>
+                    <li>Manipulating device time or date to avoid connectivity requirements</li>
+                    <li>Using the app for any illegal, unauthorized, or fraudulent purposes</li>
+                    <li>Interfering with or attempting to disrupt app functionality or security measures</li>
+                    <li>Providing false information during account setup or communication</li>
+                    <li>Attempting to reverse engineer, modify, or tamper with the app</li>
+                </ul>
+                
+                <h4>Data Accuracy Responsibility:</h4>
+                <ul>
+                    <li>You are responsible for accurately logging your smoking behavior</li>
+                    <li>The app's effectiveness depends on honest and consistent data entry</li>
+                    <li>Backup your data regularly to prevent loss during device issues</li>
+                </ul>
+                
+                <h3>4. App Updates and Version Control</h3>
+                
+                <ul>
+                    <li><strong>Mandatory Updates:</strong> We may require app updates for security, functionality, or legal compliance</li>
+                    <li><strong>Version Restrictions:</strong> Outdated versions may be restricted from accessing certain features or the app entirely</li>
+                    <li><strong>Update Notifications:</strong> You will be notified of critical updates through the app or email</li>
+                    <li><strong>Compatibility:</strong> We do not guarantee compatibility with modified or jailbroken devices</li>
+                </ul>
+                
+                <h3>5. Limitation of Liability and Disclaimers</h3>
+                
+                <div class="warning-box">
+                    <p><strong>Oneless is provided "AS IS" without warranties of any kind.</strong> We make no guarantees about:</p>
+                    <ul>
+                        <li>Smoking cessation success or health outcomes</li>
+                        <li>App availability, functionality, or error-free operation</li>
+                        <li>Data accuracy, backup reliability, or prevention of data loss</li>
+                        <li>Compatibility with all devices or operating system versions</li>
+                    </ul>
+                    
+                    <p><strong>We are not liable for any damages arising from your use of the app, including but not limited to:</strong></p>
+                    <ul>
+                        <li>Health outcomes, medical issues, or smoking-related consequences</li>
+                        <li>Financial decisions based on app calculations</li>
+                        <li>Data loss, device issues, or technical problems</li>
+                        <li>Subscription billing issues handled by Google Play Store</li>
+                    </ul>
+                </div>
+                
+                <h3>6. Privacy and Data Protection</h3>
+                
+                <p>By using Oneless, you acknowledge and agree to our data collection and processing practices as detailed in our <a href="privacy.html" style="color: #667eea;">Privacy Policy</a>. Key points include:</p>
+                <ul>
+                    <li>We collect smoking behavior data to provide app functionality</li>
+                    <li>We use Firebase services for data storage and analytics</li>
+                    <li>We do not share personal data for marketing purposes</li>
+                    <li>You can request data deletion at any time</li>
+                </ul>
+                
+                <h3>7. Intellectual Property</h3>
+                
+                <ul>
+                    <li>Oneless app, including its design, features, and algorithms, is owned by Ayon</li>
+                    <li>You may not copy, modify, distribute, or create derivative works</li>
+                    <li>Your smoking data belongs to you, but app functionality and design remain our property</li>
+                    <li>Any feedback or suggestions you provide may be used to improve the app</li>
+                </ul>
+                
+                <h3>8. Governing Law and Dispute Resolution</h3>
+                
+                <p>These Terms of Service are governed by the laws of the United Arab Emirates. Any disputes arising from your use of Oneless will be resolved through appropriate legal channels in the UAE jurisdiction, unless otherwise required by your local consumer protection laws.</p>
+                
+                <h3>9. Contact and Support</h3>
+                
+                <p>For questions, support requests, or to report issues:</p>
+                <ul>
+                    <li><strong>Email:</strong> xodaxoda@gmail.com</li>
+                    <li><strong>Response Time:</strong> We aim to respond within 48-72 hours</li>
+                    <li><strong>Emergency Device Changes:</strong> Contact us with verification information</li>
+                    <li><strong>Account Deletion:</strong> Email us with your deletion request</li>
+                </ul>
+                
+                <h3>10. Changes to Terms of Service</h3>
+                
+                <p>We reserve the right to modify these Terms of Service at any time. Users will be notified of significant changes through the app notification system or email. Continued use of the app after changes indicates acceptance of the updated terms.</p>
+                
+                <h3>11. Severability and Entire Agreement</h3>
+                
+                <p>If any provision of these Terms is found to be unenforceable, the remaining provisions will continue in full effect. These Terms, together with our Privacy Policy, constitute the entire agreement between you and Ayon regarding your use of Oneless.</p>
+            </div>
+        </div>
+        
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p><strong>App:</strong> Oneless - Quit Smoking Tracker</p>
+            <p><strong>Developer:</strong> Ayon</p>
+            <p><strong>Country:</strong> United Arab Emirates</p>
+            <p><strong>Email:</strong> <a href="mailto:xodaxoda@gmail.com">xodaxoda@gmail.com</a></p>
+            <p><strong>Support:</strong> We respond within 48-72 hours</p>
+        </div>
+        
+        <div class="last-updated">
+            <p>These Terms of Service were last updated on August 4, 2025</p>
+            <p>© 2025 Ayon. All rights reserved.</p>
+        </div>
+    </div>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" onclick="scrollToTop()">↑ Top</button>
+
+    <script>
+        // Show/hide back to top button
+        window.addEventListener('scroll', function() {
+            const backToTop = document.querySelector('.back-to-top');
+            if (window.scrollY > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        // Scroll to top function
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+</html>
